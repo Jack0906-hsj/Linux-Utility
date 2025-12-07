@@ -1,0 +1,64 @@
+# Debian/Ubuntu
+
+* vim
+    - sudo apt install vim
+
+* build-essential
+    - sudo apt install build-essential
+
+* dkms
+    - sudo apt install dkms
+
+* linux header
+    - sudo apt install linux-headers-$(uname -r)
+
+* Git
+    - sudo apt install git
+
+* ImageMagick
+    - sudo apt install imagemagick
+
+* exiftool
+    - sudo apt install libimage-exiftool-perl
+
+* Traditional Chinese input method
+    1. sudo apt install fcitx5 fcitx5-chinese-addons fcitx5-chewing
+    2. type "im-config" and choose fcitx5
+    3. reboot
+    4. type "fcitx5-configtool"
+    5. un-choose "Show current language" and find Chewing
+    6. add to the input method
+
+* VLC
+    - sudo apt install vlc
+
+* htop
+    - sudo apt install htop
+
+* libreoffice
+    - sudo apt install libreoffice
+
+* Gimp
+    - sudo apt install gimp
+
+* inkscape
+    - sudo apt install inkscape
+
+* audacious
+    - sudo apt install audacious
+
+* FFmpeg
+    - sudo apt install ffmpeg
+
+* curl
+    - sudo apt install curl
+
+* Python
+    - sudo apt install python3-venv python3-pip
+    - sudo apt install pipx && pipx ensurepath
+    - pipx install pipenv (probably optional)
+
+* VSCode
+    - sudo snap install code --classic
+
+* 
