@@ -1,0 +1,52 @@
+* .tar
+  * pack:                        tar cvf FileName.tar DirName
+  * unpack:                      tar xvf FileName.tar
+
+* .gz
+  * compress:                    gzip FileName
+  * extract 1:                   gunzip FileName.gz
+  * extract 2:                   gzip -d FileName.gz
+
+* .tar.gz
+  * pack & compress:             tar zcvf FileName.tar.gz DirName
+  * extract & unpack:            tar zxvf FileName.tar.gz
+
+* .bz2
+  * compress:                    bzip2 -z FileName
+  * extract 1:                   bzip2 -d FileName.bz2
+  * extract 2:                   bzip2 FileName.bz2
+
+* .tar.bz2
+  * pack & compress:             tar jcvf FileName.tar.bz2 DirName
+  * extract & unpack:            tar jxvf FileName.tar.bz2
+
+* .xz
+  * compress:                    xz -z FileName
+  * extract:                     xz -d FileName.xz
+
+* .tar.xz
+  * pack & compress:             tar Jcvf FileName.tar.xz DirName
+  * extract & unpack:            tar Jxvf FileName.tar.xz
+
+* .zst
+  * compress:                    zst FileName
+  * extract:                     zst -d FileName.zst
+
+* .tar.zst
+  * pack & compress:             tar -l zstd -cvf FileName.tar.zst DirName
+  * extract & unpack:            tar -l zstd -xvf FileName.tar.zst
+
+* .7z
+  * compress:                    7z a FileName.7z DirName
+  * compress (by password):      7z a FileName.7z DirName -p PASSWORD
+  * extract:                     7z x FileName.7z
+
+* .zip
+  * compress:                    zip -r FileName.zip DirName
+  * extract:                     unzip FileName.zip
+
+* .rar
+  * compress:                    rar a FileName.rar DirName
+  * extract 1:                   rar e FileName.rar
+  * extract 2:                   unrar e FileName.rar
+  * extract (specify directory): rar x FileName.rar DirName
